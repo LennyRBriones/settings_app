@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Settings App</string>
+    <string name="title_darkmode">Dark Mode</string>
+    <string name="title_bluethoot">Settings App</string>
+    <string name="title_volume">Volume</string>
+    <string name="title_vibration">Vibration on Calls</string>
+    <string name="descrption_darkmode">Activate Dark Mode for visual comfort theme</string>
+    <string name="descrption_bluetooth">Connect bluetooth devices</string>
 </resources>

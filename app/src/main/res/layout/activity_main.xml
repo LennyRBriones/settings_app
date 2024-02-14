@@ -29,14 +29,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textColor="@color/black"
-                tools:text="Dark Mode" />
+                android:text="@string/title_darkmode" />
 
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="11sp"
-                tools:text="Activate Dark Mode for visual comfort theme" />
+                android:text="@string/descrption_darkmode" />
 
         </LinearLayout>
 
@@ -77,7 +77,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="11sp"
-                tools:text="Connect bluethoot devices" />
+                android:text="@string/descrption_bluetooth" />
 
         </LinearLayout>
 
@@ -116,14 +116,15 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textColor="@color/black"
-                tools:text="Volume" />
+                android:text="@string/title_volume" />
 
             <com.google.android.material.slider.RangeSlider
+                android:id="@+id/rsVolume"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:stepSize="1"
                 android:valueFrom="1"
-                android:valueTo="100"
-                android:stepSize="1"/>
+                android:valueTo="100" />
 
         </LinearLayout>
 
@@ -147,7 +148,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:textColor="@color/black"
-            tools:text="Vibration" />
+            android:text="@string/title_vibration" />
 
 
         <com.google.android.material.switchmaterial.SwitchMaterial
